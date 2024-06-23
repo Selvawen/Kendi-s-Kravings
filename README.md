@@ -24,7 +24,7 @@ Kendi's Kravings is a website designed for people who are interested in buing cu
 
 ## Technologies Used
 ![Static Badge](https://img.shields.io/badge/JavaScript-Yellow?logo=JavaScript&logoColor=Blue)
-![Static Badge](https://img.shields.io/badge/CSS-Blue?logo=CSS&logoColor=Blue&color=Blue)
+![Static Badge](https://img.shields.io/badge/HTML-Blue?logo=HTML&logoColor=Blue&color=Blue)
 ![Static Badge](https://img.shields.io/badge/CSS-Blue?logo=CSS&logoColor=Blue)
 
 
