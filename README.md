@@ -12,6 +12,14 @@ Kendi's Kravings is a website designed for people who are interested in buing cu
 ## Demo
 
 ![ken kraves 1](https://github.com/Selvawen/Kendi-s-Kravings/assets/111338548/54ba4506-949c-48aa-8399-c5bcb3af9d6c)
+![second page kendi](https://github.com/Selvawen/Kendi-s-Kravings/assets/111338548/a35c4874-6e09-41e5-8ec0-1f2ecc3adc55)
+![third page kendi](https://github.com/Selvawen/Kendi-s-Kravings/assets/111338548/98f098a8-5f27-4642-b479-9200d7148ff4)
+![fourth page kendi](https://github.com/Selvawen/Kendi-s-Kravings/assets/111338548/22a0175f-4372-4112-8278-c16b3264235b)
+![Values kendi](https://github.com/Selvawen/Kendi-s-Kravings/assets/111338548/4e58081a-1582-4830-a271-8e6648cc6a93)
+![testimonials kendi](https://github.com/Selvawen/Kendi-s-Kravings/assets/111338548/61455ef0-efc0-4c94-8f73-14bc49f9cb7a)
+![Pricing](https://github.com/Selvawen/Kendi-s-Kravings/assets/111338548/bfee0e43-cb37-48f0-9e8b-62242f50910a)
+
+
 
 
 ## Technologies Used
