@@ -11,7 +11,8 @@ Kendi's Kravings is a website designed for people who are interested in buing cu
 
 ## Demo
 
- ![Screenshot1](Kendi-s-Kravings/assests/screenshots/ken kraves 1.PNG)
+![ken kraves 1](https://github.com/Selvawen/Kendi-s-Kravings/assets/111338548/54ba4506-949c-48aa-8399-c5bcb3af9d6c)
+
 
 ## Technologies Used
 
