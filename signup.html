@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Kendi's Kravings</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section id="landing">
+        <nav>
+            <div class="row nav__row">
+                <div class="nav__logo">
+                    <img class="nav__logo--img" src="assets/Kendi's Kravings Logo.png" alt="logo">
+                    <div class="nav__logo--title">Kendi's Kravings</div>
+                </div>
+                <div class="nav__links">
+                    <a href="about.html" class="nav__link">About</a>
+                    <a href="blog.html" class="nav__link">Blog</a>
+                    <a href="pricing.html" class="nav__link">Pricing</a>
+                    <a href="contact.html" class="nav__link">Contact Us</a>
+                    <a href="login.html" class="nav__link login">Login</a>
+                    <a href="signup.html" class="nav__link nav__link--primary">Sign Up</a>
+                </div>
+                <button class="btn__menu" onclick="openMenu()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" class="btn__menu--svg">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </section>
+
+    <main id="signup">
+        <h1>Create a New Account</h1>
+        <form action="/submit-signup" method="POST" onsubmit="return validateSignupForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="signup-name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="signup-email" name="email" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="signup-password" name="password" required><br>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required><br>
+
+            <button type="submit" class="btn">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+    </main>
+
+    <script>
+        // Basic validation for signup form
+        function validateSignupForm() {
+            const name = document.getElementById("signup-name").value;
+            const email = document.getElementById("signup-email").value;
+            const password = document.getElementById("signup-password").value;
+            const confirmPassword = document.getElementById("confirm-password").value;
+
+            if (name === "" || email === "" || password === "" || confirmPassword === "") {
+                alert("Please fill in all fields.");
+                return false;
+            }
+            if (password !== confirmPassword) {
+                alert("Passwords do not match.");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>
