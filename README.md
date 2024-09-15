@@ -1,6 +1,6 @@
 # Kendi's Kravings
 
-Kendi's Kravings is a website designed for people who are interested in buing customizable cookies. Buying and having them delivered to their front door. 
+Kendi's Kravings is a website designed for people who are interested in buying customizable cookies. Buying and having them delivered to their front door. 
 
 ## Table of Contents
 
